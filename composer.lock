@@ -9,7 +9,7 @@
     "packages": [
         {
             "name": "classpreloader/classpreloader",
-           
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ClassPreloader/ClassPreloader.git",
