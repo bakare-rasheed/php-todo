@@ -5,10 +5,6 @@
     "license": "MIT",
     "type": "project",
 
-    "pre-install-cmd": [
-    "php composer.phar update"
-    ],
-
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*"
