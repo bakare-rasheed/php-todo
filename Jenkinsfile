@@ -13,7 +13,7 @@ pipeline {
 
     stage('Checkout SCM') {
       steps {
-            git branch: 'main', url: 'https://github.com/bakare-rasheed/ansible-config-mgt.git'
+            git branch: 'main', url: 'https://github.com/bakare-rasheed/php-todo.git'
       }
     }
 
