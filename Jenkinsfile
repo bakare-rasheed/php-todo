@@ -82,7 +82,7 @@ stage ('Package Artifact') {
              }""" 
 
              server.upload spec: uploadSpec
-           }
-        }
+       }
+    }
 
-    '}',
+}
