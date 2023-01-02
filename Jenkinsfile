@@ -85,5 +85,5 @@ stage ('Upload Artifact to Artifactory') {
              server.upload spec: uploadSpec
            }
         }
-
+}
 }
