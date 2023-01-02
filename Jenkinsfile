@@ -86,5 +86,13 @@ stage ('Upload Artifact to Artifactory') {
            }
         }
 }
+
+stage ('Deploy to Dev Environment') {
+    steps {
+    build job: '
+ansible-config-mgt/main', parameters: [[$class: 'StringParameterValue', name: 'env', value: 'dev']], propagate: false, wait: true
+    }
+  }
+
 }
 }
